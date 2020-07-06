@@ -1,7 +1,7 @@
 //Intuitive equality comparisons often fail, because arithmetic on decimal (base 10) values often have rounding errors in limited precision binary (base 2) representation
-test('adding works sanely with decimals', () => {
-    expect(0.2 + 0.1).toBe(0.3); // Fails!
-});
+// test('adding works sanely with decimals', () => {
+//     expect(0.2 + 0.1).toBe(0.3); // Fails!
+// });
 //Use toBeCloseTo to compare floating point numbers for approximate equality
 test('adding works sanely with decimals', () => {
     expect(0.2 + 0.1).toBeCloseTo(0.3, 5);
