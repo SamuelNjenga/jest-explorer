@@ -12,6 +12,13 @@
     "jest": "^26.1.0"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "jest-changed-files": "^26.1.0",
+    "jest-diff": "^26.1.0",
+    "jest-docblock": "^26.0.0",
+    "jest-get-type": "^26.0.0",
+    "jest-validate": "^26.1.0",
+    "jest-worker": "^26.1.0",
+    "pretty-format": "^26.1.0"
   }
 }
