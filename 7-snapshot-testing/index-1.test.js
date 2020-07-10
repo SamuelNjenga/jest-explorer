@@ -1,6 +1,6 @@
 //Property Matchers
 //Often there are fields in the object you want to snapshot which are generated (like IDs and Dates). If you try to snapshot these objects, they will force the snapshot to fail on every run
-it('will fail every time', () => {
+it.skip('will fail every time', () => {
     const user = {
       createdAt: new Date(),
       id: Math.floor(Math.random() * 20),
