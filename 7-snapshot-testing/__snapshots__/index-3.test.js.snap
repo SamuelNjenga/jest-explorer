@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`will check the values and pass 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "name": "Computer Science... Software Engineering",
+  "school": "The Great School Of Life",
+}
+`;
