@@ -20,6 +20,7 @@
     "jest-validate": "^26.1.0",
     "jest-worker": "^26.1.0",
     "lodash": "^4.17.19",
+    "node-fetch": "^2.6.0",
     "prettier": "^2.0.5",
     "pretty-format": "^26.1.0"
   }
