@@ -7,9 +7,9 @@ const SoundPlayerConsumer = require('../sound-player-consumer');
 //In order to mock a constructor function, the module factory must return a constructor function. In other words, the module factory must be a function that returns a function - a higher-order function (HOF)
 const mockPlaySoundFile = jest.fn();
 jest.mock('../sound-player', () => {
-  return function() => {
+  return jest.fn().mockImplementation(() => {
     return {playSoundFile: mockPlaySoundFile};
-  };
+  });
 });
 
 beforeEach(() => {
